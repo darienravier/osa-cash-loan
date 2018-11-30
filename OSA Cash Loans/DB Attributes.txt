@@ -1,0 +1,67 @@
+Legend: * -> required
+
+userid ***************	
+name *****************
+username
+student_no ***********
+course ***************
+college **************
+sex
+marital_status
+nickname
+standing *************
+address_college
+address_permanent ****
+region
+mobile_no ************
+mobile_device
+landline
+email
+upmail ***************
+saisid ***************
+sts
+birthdate
+birthplace
+nationality
+religion
+talents
+prev_college
+prev_highschool
+prev_elementary
+father_name
+father_bday
+father_educ
+father_work
+mother_name **********
+mother_bday
+mother_educ
+mother_work
+siblings_working
+siblings_studying
+siblings_total
+family_income
+source_finances
+scholarships
+facebookid
+twitterid
+last_seen
+last_updated
+photo
+session
+sched
+ice
+ice_no
+password
+account_pin
+bank_account
+employer
+job_title
+passport
+visa
+passport_exp
+visa_exp
+bloodtype
+session_token
+tuple
+broadcast
+mobile_verified

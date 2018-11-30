@@ -1,0 +1,80 @@
+<div id="confirm-info">
+	<div>
+		<h3>Is this information correct?</h3>
+	</div>
+	<form action="/{{@BASE}}/infoConfirmed" method="POST">
+	<div>
+		<table class="responsive-table striped">
+			<tr>
+				<td>Student Name</td>
+				<td>{{ @SESSION.fullname }}</td>
+			</tr>
+			<tr>
+				<td>Student Number</td>
+				<td>{{ @SESSION.studentnumber }}</td>
+			</tr>
+			<tr>
+				<td>Degree</td>
+				<td>{{ @SESSION.degree }}</td>
+			</tr>
+			<tr>
+				<td>College</td>
+				<td>{{ @SESSION.college }}</td>
+			</tr>
+			<tr>
+				<td>Classification</td>
+				<td>{{ @SESSION.standing }}</td>
+			</tr>
+			<tr>
+				<td>Permanent Address</td>
+				<td>{{ @SESSION.address_permanent }}</td>
+			</tr>
+			<tr>
+				<td>Parent's Name</td>
+				<td>{{ @SESSION.parent_name }}</td>
+			</tr>
+			<tr>
+				<td>Mobile Number</td>
+				<td>{{ @SESSION.mobilenumber }}</td>
+			</tr>
+			<tr>
+				<td>UP Mail</td>
+				<td>{{ @SESSION.upmail }}</td>
+			</tr>
+			<tr>
+				<td>SAIS ID</td>
+				<td>{{ @SESSION.saisid }}</td>
+			</tr>
+			<tr>
+				<td>Loan Type</td>
+				<td>{{ @SESSION.loantype }}</td>
+			</tr>
+			<tr>
+				<td>Loan Type Acronym</td>
+				<td>{{ @SESSION.loanacronym }}</td>
+			</tr>
+			<tr>
+				<td>Amount of Loan (Words): </td>
+				<td>{{ @SESSION.loanwords }}</td>
+			</tr>
+			<tr>
+				<td>Amount of Loan (Pesos): </td>
+				<td>{{ @SESSION.loannum }}</td>
+			</tr>
+			<tr>
+				<td>Purpose of Loan: </td>
+				<td>{{ @SESSION.loanpurpose }}</td>
+			</tr>
+			<tr>
+				<td>Due Date of Payment: </td>
+				<td>{{ @SESSION.duedate }}</td>
+			</tr>
+			<tr>
+		</table>
+	</div>
+	<div class="row">
+		<button id="confirm-info-button" class="btn waves-effect waves-light green"><input type="submit" value="Confirm"></button>
+		<button id="edit-info-button" class="btn waves-effect waves-light red">Edit<i class="material-icons">edit</i></button>
+	</div>
+	</form>
+</div>

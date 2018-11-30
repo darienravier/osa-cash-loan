@@ -1,0 +1,59 @@
+html{
+	height:100%;
+}
+
+body{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	text-align: center;
+}
+
+#forms{
+	margin-left: 15%;
+	margin-top: 5%;
+}
+
+#confirm-info{
+	margin-left: 15%;
+	margin-top: 5vh;
+	margin-right: 15%;
+}
+
+#button-id{
+	margin-bottom: .8vh;
+	width: 40vw;
+}
+
+#button-form-submit{
+	width: 10vw;
+	margin-left: 1vw;
+}
+
+#loan-button-list{
+	margin-top: 5%;
+}
+#map-container{
+	height: 100%;
+	width: 65%;
+	float: left;
+}
+
+#map-canvas{
+	height: 100%;
+	width: 100%;
+}
+
+#controls{
+	height: 100%;
+	width: 34%;
+	margin-left:5px;
+	float:left;
+}
+
+#day-option{
+	float: left;
+}

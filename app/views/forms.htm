@@ -1,0 +1,29 @@
+<div id="forms">	
+	<form action="/{{@BASE}}/setForms" method="POST">
+		<div class="row">
+			<div class="input-field col s8">
+		        <input id="loan-amt-words" type="text" placeholder="Amount in Words" value="" name="words">
+		        <label for="loan-amount-words">Amount of Loan</label>
+		    </div>
+		    <div class="input-field col s2">
+		    	<input id="loan-amt-num" type="number" min="0" placeholder="Amount in Numbers" value="" name="num">
+		        <label for="loan-amount-num"></label>
+		    </div>
+		</div>
+		<div class="row">
+			<div class="input-field col s10">
+				<input id="loan-purpose" type="text" value="" name="purpose">
+				<label for="loan-purpose">Purpose of Loan</label>
+			</div>
+		</div>
+		<div class="row">
+			<div class="input-field col s6">
+				<input id="date-picker" type="text" class="datepicker" name="duedate">
+				<label>Due Date of Payment</label>
+			</div>
+		</div>
+		<div>
+			<button class="btn waves-light waves-effect"><input  type="submit" value="Submit"><i class="material-icons">send</i></button>
+		</div>
+	</form>
+</div>

@@ -1,0 +1,23 @@
+*Basic Info*
+Date
+Amt of Loan (in words)
+Purpose of Loan
+Due Date of Payment
+Student's Name
+Student No.
+SAIS ID
+College
+Degree
+Classification
+Mobile/Tel No
+Email Add
+Name of Parent
+Permanent Home Address
+
+*Certificate of Academic Standing*
+
+*Promissory Note/Loan Agreement*
+
+*Committee's Action*
+
+*General Guidelines*
